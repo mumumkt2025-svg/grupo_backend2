@@ -159,7 +159,7 @@ app.post('/webhook-pushinpay', async (req, res) => {
                     fbc: attributionData.fbc,
                     custom_data: {
                         currency: 'BRL',
-                        value: 19.99,
+                        value: 2.99,
                         transaction_id: normalizedId
                     }
                 });
