@@ -16,7 +16,7 @@ app.use(cors());
 // VARIÁVEIS DE AMBIENTE (Render Environment)
 const PUSHIN_TOKEN = process.env.PUSHIN_TOKEN;
 const FACEBOOK_ACCESS_TOKEN = process.env.FACEBOOK_ACCESS_TOKEN;
-const FACEBOOK_PIXEL_ID = '4273499272897363';
+const FACEBOOK_PIXEL_ID = '25903937665861280';
 
 const paymentStatus = {};
 
