@@ -1,19 +1,5 @@
 // server.js (VERSÃO FINAL SEM DOTENV - PARA RENDER)
-<script
-  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
-  data-utmify-prevent-xcod-sck
-  data-utmify-prevent-subids
-  async
-  defer
-></script>
-<script>
-  window.pixelId = "690f0f14ade15788782163d5";
-  var a = document.createElement("script");
-  a.setAttribute("async", "");
-  a.setAttribute("defer", "");
-  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
-  document.head.appendChild(a);
-</script>
+
 const express = require('express');
 const fetch = require('node-fetch');
 const path = require('path');
